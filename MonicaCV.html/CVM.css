@@ -3,8 +3,38 @@
   padding: 0%;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 500px 40px 80px;
+  border: 10px solid rgb(227, 107, 243);
+  border-radius: 10px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px 20px 80px;
+  border: 10px solid rgb(227, 107, 243);
+  border-radius: 10px;
+}
+
 main {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #fdbfe4, #d6adec);
+}
+
+img {
+  display: flex;
+  border-radius: 40px;
+}
+
+.linea-horizontal {
+  width: 1300px; /* Ajusta el grosor de la línea */
+  height: 2px; /* Ajusta la altura de la línea */
+  background-color: #fcfcfc; /* Ajusta el color de la línea */
+  display: inline-block; /* Esto permite ajustar la altura */
+  position: relative; /* Esto permite ajustar la posición */
 }
